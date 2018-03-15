@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/ivanhreskiv/cw/src'
+let g:netrw_dirhist_2='/home/ivanhreskiv/cw'
+let g:netrw_dirhist_3='/home/ivanhreskiv/cw/src/counterparty-lib/counterpartylib/lib'
+let g:netrw_dirhist_4='/home/ivanhreskiv/cw/src/counterparty-lib/counterpartylib'
+let g:netrw_dirhist_5='/home/ivanhreskiv/cw/src/counterparty-lib/counterpartylib/test'
+let g:netrw_dirhist_6='/home/ivanhreskiv/cw/src/counterparty-lib/counterpartylib/test/fixtures'
+let g:netrw_dirhist_7='/home/ivanhreskiv/cw/src/counterparty-lib/counterpartylib/lib'
+let g:netrw_dirhist_8='/home/ivanhreskiv/cw/src/counterparty-lib/counterpartylib'
