@@ -24,6 +24,7 @@ set showmatch
 
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
+Plug 'rust-lang/rust.vim'
 
 "python-mode configs
 let g:pymode_rope = 0
