@@ -24,25 +24,29 @@ set showmatch
 
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
-Plug 'rust-lang/rust.vim'
 
 "python-mode configs
-let g:pymode_rope = 0
-let g:pymode_rope_autoimport = 0
-let g:pymode_rope_complete = 0
-let g:pymode_rope_complete_on_dot = 0
-let g:pymode_lint = 1
+let g:pymode_doc = 1
+let g:pymode_rope = 1
+let g:pymode_rope_autoimport = 1
+let g:pymode_rope_complete = 1
+let g:pymode_rope_complete_on_dot = 1
+let g:pymode_rope_goto_definition_bind = '<C-c>g'
+let g:pymode_lint = 0
 let g:pymode_lint_checker = "pyflakes,pep8"
 let g:pymode_lint_cwindow = 0
 let g:pymode_lint_options_pep8 = {
 		\ 'max_line_length': 180,
 		\ 'ignore': 'W191'
 	\ }
-let g:pymode_virtualenv = 1
-let g:pymode_syntax = 1
-let g:pymode_syntax_all = 1
+let g:pymode_virtualenv = 0
+let g:pymode_syntax = 0
+let g:pymode_syntax_all = 0
 let g:pymode_syntax_indent_errors = g:pymode_syntax_all
 let g:pymode_syntax_space_errors = g:pymode_syntax_all
 let g:pymode_folding = 0
-let g:pymode_breakpoint = 1
+let g:pymode_breakpoint = 0
 let g:pymode_breakpoint_key = '<leader>e'
+
+"rust config
+let g:rustfmt_autosave = 1 
