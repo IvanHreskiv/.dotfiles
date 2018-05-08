@@ -1,7 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/ivanhreskiv/cw/src/counterparty-lib'
-let g:netrw_dirhist_2='/home/ivanhreskiv/cw/src'
-let g:netrw_dirhist_3='/home/ivanhreskiv/cw'
-let g:netrw_dirhist_4='/home/ivanhreskiv'
-let g:netrw_dirhist_5='/home/ivanhreskiv/cw/src/counterparty-lib/counterpartylib/lib'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/ivanhreskiv/cw/src/coinweb-lib/coinweblib/lib/messages'
+let g:netrw_dirhist_2='/home/ivanhreskiv/cw/src/coinweb-lib/coinweblib'
+let g:netrw_dirhist_3='/home/ivanhreskiv/cw/src/coinweb-lib/coinweblib/lib'
+let g:netrw_dirhist_4='/home/ivanhreskiv/cw/src/coinweb-lib/coinweblib/lib/messages'
+let g:netrw_dirhist_5='/home/ivanhreskiv/cw/src/coinweb-lib/coinweblib/lib/messages/versions'
+let g:netrw_dirhist_6='/home/ivanhreskiv/cw/src/coinweb-lib/coinweblib/lib/messages'
+let g:netrw_dirhist_7='/home/ivanhreskiv/cw/src/coinweb-lib/coinweblib/lib'

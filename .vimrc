@@ -27,10 +27,10 @@ let python_highlight_all = 1
 
 "python-mode configs
 let g:pymode_doc = 1
-let g:pymode_rope = 1
-let g:pymode_rope_autoimport = 1
-let g:pymode_rope_complete = 1
-let g:pymode_rope_complete_on_dot = 1
+let g:pymode_rope = 0
+let g:pymode_rope_autoimport = 0
+let g:pymode_rope_complete = 0
+let g:pymode_rope_complete_on_dot = 0
 let g:pymode_rope_goto_definition_bind = '<C-c>g'
 let g:pymode_lint = 0
 let g:pymode_lint_checker = "pyflakes,pep8"
